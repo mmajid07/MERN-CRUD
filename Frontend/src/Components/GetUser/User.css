@@ -1,0 +1,55 @@
+.user-table {
+  width: 60%;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 50px;
+}
+.addButton {
+  text-decoration: none;
+  background-color: purple;
+  color: white;
+  font-weight: 700;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.user-table table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+.user-table table thead th {
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+}
+.user-table table tbody td {
+  padding: 10px;
+  text-align: center;
+}
+
+.actionbuttons button,
+.actionbuttons a {
+  display: inline-block; /* Ensures consistent box-model behavior */
+  border: 0;
+  outline: none;
+  background-color: red; /* Default color for buttons */
+  border-radius: 5px;
+  color: white;
+  padding: 8px 12px; /* Adjust padding to ensure uniform size */
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none; /* Remove underline for links */
+  cursor: pointer;
+  font-size: 14px; /* Ensure consistent text size */
+  margin: 0 3px; /* Equal margin between buttons */
+  line-height: 1; /* Consistent height */
+}
+
+.actionbuttons a {
+  background-color: green; /* Override specific to links */
+}
